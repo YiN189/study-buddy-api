@@ -325,7 +325,7 @@ The application will be available at your server's domain or `http://localhost`.
 
 ```bash
 # Run the seed script to populate sample data
-cd studybuddy-api
+cd study-buddy-api
 node src/scripts/seed.js
 ```
 
@@ -360,7 +360,7 @@ This inserts sample users, courses, categories, questions, and reports.
 - `docker-compose.yml` is included in this repo. To run the full stack, clone both repos side by side:
   ```
   project2/
-  ├── studybuddy-api/   ← this repo (https://github.com/YiN189/studybuddy-api)
+  ├── studybuddy-api/   ← this repo (https://github.com/YiN189/study-buddy-api)
   └── StudyBuddy/       ← frontend repo (https://github.com/Shunelw/StudyBuddy)
   ```
-  Then run `docker-compose up --build -d` from inside `studybuddy-api/`.
+  Then run `docker-compose up --build -d` from inside `study-buddy-api/`.
